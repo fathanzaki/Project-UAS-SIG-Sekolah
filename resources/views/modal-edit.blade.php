@@ -20,6 +20,8 @@
         <select id="jenis_sekolah" name="jenis_sekolah" class="w-full px-4 py-2 mt-1 border border-gray-300 rounded-md" required>
             <option value="SMA">SMA</option>
             <option value="SMK">SMK</option>
+            <option value="SMP">SMP</option>
+            <option value="SD">SD</option>
         </select>
     </div>
 

@@ -12,15 +12,14 @@ return new class extends Migration
     public function up()
 {
     Schema::table('sekolahs', function (Blueprint $table) {
-        $table->string('alamat')->after('nama');
+        $table->dropColumn('alamat');
     });
 }
 
 public function down()
 {
     Schema::table('sekolahs', function (Blueprint $table) {
-        $table->dropColumn('alamat');
+        $table->string('alamat')->after('nama'); // Jika ingin mengembalikan
     });
 }
-
 };

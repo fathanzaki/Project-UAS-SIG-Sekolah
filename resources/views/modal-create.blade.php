@@ -17,6 +17,9 @@
             <option value="">Pilih Jenis</option>
             <option value="SMA">SMA</option>
             <option value="SMK">SMK</option>
+            <option value="SMP">SMP</option>
+            <option value="SD">SD</option>
+            
         </select>
     </div>
     <div>

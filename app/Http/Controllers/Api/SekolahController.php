@@ -4,6 +4,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Sekolah;
 use Illuminate\Http\Request;
 
+
 class SekolahController extends Controller
 {
     public function index()

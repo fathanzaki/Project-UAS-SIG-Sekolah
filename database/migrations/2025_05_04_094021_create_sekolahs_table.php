@@ -15,8 +15,8 @@ return new class extends Migration {
             $table->string('nama');
             $table->string('telepon');
             $table->string('email');
-            $table->enum('jenis_sekolah', ['Negeri', 'Swasta']);
-            $table->enum('status_sekolah', ['Aktif', 'Nonaktif']);
+            $table->enum('jenis_sekolah', ['SMA', 'SMK','SMP','SD']);
+            $table->enum('status_sekolah', ['Negeri', 'Swasta']);
             $table->string('akreditasi');
             $table->string('website')->nullable();
             $table->decimal('latitude', 10, 8);
